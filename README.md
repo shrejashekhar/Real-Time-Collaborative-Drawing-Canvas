@@ -4,7 +4,7 @@ Canvas Companions is a real-time collaborative drawing web application that allo
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time collaborative drawing
 - Shared canvas synchronized across all connected users
@@ -20,7 +20,7 @@ Canvas Companions is a real-time collaborative drawing web application that allo
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -40,7 +40,7 @@ Canvas Companions is a real-time collaborative drawing web application that allo
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 
@@ -61,7 +61,7 @@ src/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 - Each user joining the application is assigned a unique identifier, display name, and color.
 - Drawing actions are captured locally and broadcast in real time using WebSocket-based channels.
@@ -71,7 +71,7 @@ src/
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (v18 or later recommended)
@@ -112,7 +112,7 @@ http://localhost:5173
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev       # Start development server
@@ -123,7 +123,7 @@ npm run test      # Run tests (if configured)
 
 ---
 
-## 🎯 Design Decisions
+## Design Decisions
 
 * Real-time communication optimized for low latency
 * Separation of canvas logic from UI components
@@ -133,7 +133,7 @@ npm run test      # Run tests (if configured)
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * No authentication or persistent user accounts
 * Single shared canvas session
@@ -142,7 +142,7 @@ npm run test      # Run tests (if configured)
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * User authentication and profiles
 * Multiple rooms or session-based canvases
